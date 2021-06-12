@@ -15,9 +15,14 @@
     <link rel="stylesheet" href="/css/all.min.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-lg navbar-dark fixed-top bgcolor"
+    >
       <div class="container">
-        <a class="navbar-brand" href="#"> <i class="fas fa-fire"></i> LOGO</a>
+        <a class="navbar-brand space" href="#">
+          <i class="fas fa-fire"></i> LOGO</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -97,12 +102,97 @@
       </div>
     </section>
 
-    <section class="whtie">
+    <section class="white">
       <div class="container">
         <div class="row">
-          <div class="col-md-6"></div>
-          <div class="col-md-6"></div>
+          <div class="col-sm-6">
+            <img src="microphone.jpg" class="img-fluid" alt="microphone" />
+          </div>
+          <div class="col-sm-6">
+            <h2 id="white-header">Best in Class</h2>
+
+            <p id="white-text">
+              Holisticly predominate extensible testing procedures for reliable
+              supply chains. Dynamically innovate resource-leveling customer
+              service for state of the art customer service.
+            </p>
+
+            <button type="button" class="btn btn-primary btn-lg">
+              CLASSIFY IT
+            </button>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="black">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h2 id="black-header">Superior Quality</h2>
+
+            <p id="black-text">
+              Holisticly predominate extensible testing procedures for reliable
+              supply chains. Dynamically innovate resource-leveling customer
+              service for state of the art customer service.
+            </p>
+
+            <button type="button" class="btn btn-light">TEST IT</button>
+          </div>
+
+          <div class="col-sm-6">
+            <img src="1phone.jpg" class="img-fluid" alt="phone" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4 gallery-item item-1 text-center">
+            <h3 class="gallery-text">Unleash</h3>
+          </div>
+
+          <div class="col-sm-4 gallery-item item-2 text-center">
+            <h3 class="gallery-text">Synergize</h3>
+          </div>
+
+          <div class="col-sm-4 gallery-item item-3 text-center">
+            <h3 class="gallery-text">Procrastinate</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sanity">
+      <div class="container-fluid text-center">
+        <i class="fas fa-3x fa-thumbtack"></i>
+        <h2>Sanity Check</h2>
+        <p id="sanity-text">
+          Holisticly predominate extensible testing procedures for reliable
+          supply chains. Dynamically innovate resource-leveling customer service
+          for state of the art customer service.
+        </p>
+        <button type="button" class="btn btn-primary btn-lg">ENGAGE NOW</button>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container text-center">
+        <h2>Contact Us</h2>
+        <i class="fas fa-2x fa-phone-alt"></i>
+        <p class="contact-text">+1(214) 123 2981</p>
+        <i class="fas fa-2x fa-envelope"></i>
+        <p class="contact-text">obiobialo@aol.com</p>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container text-center">
+        <p id="footer-text">
+          Copyright <i class="far fa-copyright"></i> Obi.com 2020
+        </p>
       </div>
     </section>
 
@@ -111,5 +201,7 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
+
+    <script src="index.js"></script>
   </body>
 </html>

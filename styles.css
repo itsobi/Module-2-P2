@@ -1,3 +1,9 @@
+.bgColor {
+  transition: all 1s;
+  background-color: orange;
+  border-bottom: 1px solid orange;
+}
+
 .navbar-brand {
   letter-spacing: 0.5em;
   padding-left: 5%;
@@ -8,7 +14,7 @@
 }
 
 .navbar {
-  border-bottom: 0.5px solid white;
+  border-bottom: 0.5px solid orange;
   padding-right: 5%;
 }
 
@@ -51,6 +57,104 @@ header {
   padding-top: 10px;
 }
 
+img {
+  border-radius: 50%;
+}
+
+#white-text {
+  font-size: 21px;
+  color: gray;
+}
+
+.white {
+  padding: 100px 0;
+}
+
+.black {
+  padding: 100px 0;
+  background-color: #222;
+}
+
+#black-header {
+  font-size: 30px;
+  color: white;
+}
+
+#black-text {
+  font-size: 21px;
+  color: white;
+}
+
+.btn-light {
+  background-color: white;
+  border-color: white;
+}
+
+.item-1 {
+  background-image: url(pen.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.item-2 {
+  background-image: url(concert.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.item-3 {
+  background-image: url(notebook.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.gallery-item {
+  height: 200px;
+  line-height: 180px;
+  text-align: center;
+}
+
+.gallery-text {
+  font-size: 40px;
+  color: white;
+}
+
+.fa-thumbtack {
+  color: orange;
+}
+
+.sanity {
+  padding: 40px 0;
+}
+
+#sanity-text {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 0 25px;
+}
+
+.contact {
+  background-color: orange;
+  padding: 100px 0;
+}
+
+.contact-text {
+  font-size: 22px;
+}
+
+.fa-phone-alt {
+  padding-top: 10px;
+}
+
+.footer {
+  padding: 50px 0;
+}
+
+#footer-text {
+  font-weight: 300;
+  color: orange;
+}
+
 @media screen and (max-width: 700px) {
   header {
     padding-top: 100px;
@@ -75,5 +179,13 @@ header {
 
   .navbar-dark {
     background-color: orange;
+  }
+
+  #white-header {
+    padding-top: 15px;
+  }
+
+  .footer {
+    padding: 50px 0 100px;
   }
 }
